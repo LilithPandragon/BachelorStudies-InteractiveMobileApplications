@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#80EEEEEE" /> <!-- Hintergrundfarbe des Textes -->
+    <corners android:radius="8dp" /> <!-- Abrundungsradius des Rahmens -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- Rahmenfarbe und -breite -->
+</shape>

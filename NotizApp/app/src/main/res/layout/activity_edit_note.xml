@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNoteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notizname"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="#F5F5F5"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editTextNoteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assign a note name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext_background"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textViewNoteDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note Description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="#F5F5F5"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editTextNoteDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fill out description"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:background="@drawable/edittext_background"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="#B640CA"
+        android:text="Save" />
+
+</LinearLayout>
